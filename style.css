@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+.first_row{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://drive.google.com/uc?export=view&id=1psiJ7FO3BAvNKBhxC_hBhUK6a4ncrDov);
+    padding-left: 4em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
+}
+.f_right{
+    flex: 40%;
+}
+.f_left{
+    flex: 60%;
+}
+.second_row{
+    width: 90%;
+    border: 1px solid hsl(193, 100%, 96%);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: space-around;
+    box-shadow: 0 0 2px #888888;
+}
+.s_right{
+    width: 45%;
+    margin-top: 8em;
+}
+
+.third_row{
+    width: 90%;
+    border: 1px solid hsl(193, 100%, 96%);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 3em;
+    justify-content: space-around;
+    box-shadow: 0 0 2px #888888;
+}
+
+.t_left{
+    width: 45%;
+    margin-top: 8em;
+}
+.fourth_row{
+    width: 90%;
+    border: 1px solid hsl(193, 100%, 96%);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 3em;
+    justify-content: space-around;
+    box-shadow: 0 0 2px #888888;
+}
+.fo_right{
+    width: 45%;
+    margin-top: 8em;
+}
+.fo_left{
+    width: 45%;
+}
+
+.fifth_row{
+    width: 50%;
+    border: 1px solid hsl(193, 100%, 96%);
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: -3em;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 2px #888888;
+}
+.footer{
+    background-color: hsl(208, 11%, 55%);
+    color: white;
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+.footer_bottom{
+    color: white;
+    height: 50px;
+    bottom: 0px;
+    margin-left: 58em;
+}
+.footer_content{
+    display: flex;
+    height: 350px;
+}
+.footer_content .footer_section{
+    flex: 1;
+    padding: 25px;
+    margin: auto;
+}
+
+.loction{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:375px){
+    .first_row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        background-image: url(https://drive.google.com/uc?export=view&id=12ZFhsrsPxJkGuazSNEls3kF-snp1Ml0l);
+    }
+    .up{
+        margin-top: -25em;
+    }
+    .down{
+        margin-top: 27em;
+    }
+    .f_left img{
+       max-width: 90%;
+    }
+    .second_row, .fourth_row{
+        flex-direction: column-reverse;
+        max-width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+    }
+    .fifth_row{
+        width: 80%;
+    }
+    .t_left p{
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        top: 17em;
+        right: 0;
+        left: 0;
+        height: 70%;
+    }
+    .s_right p{
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        top: 17em;
+        right: 0;
+        left: 0;
+        height: 70%;
+    }
+    .fo_right p{
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        top: 9em;
+        right: 0;
+        left: 0;
+        height: 70%;
+    }
+
+    .third_row{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 90%;
+    }
+    .third_row img{
+        max-width: 90%;
+    }
+    .img_change{
+        max-width: 90%;
+    }
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 800px;
+        justify-content: left;
+        
+    }
+    .footer_bottom{
+        height: 50px;
+        margin-top: 25em;
+        margin-left: 2em;
+    }
+}
